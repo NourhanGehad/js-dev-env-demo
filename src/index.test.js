@@ -17,7 +17,7 @@ describe('index.html', () => {
       }
       else {
         const h1 = window.document.getElementsByTagName('h1')[0];
-        expect(h1.innerHTML).to.equal("Hello Hayllie!!");
+        expect(h1.innerHTML).to.equal("Hello Hayllie!! :D");
         done();
         window.close();
       }
